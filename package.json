@@ -17,6 +17,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"express": "^4.19.2"
+		"express": "^4.19.2",
+		"svelte-lazy-image": "^0.5.1"
 	}
 }
