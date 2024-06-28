@@ -11,6 +11,15 @@
   }
 </script>
 
+<svelte:head>
+  <title>부천노래방 아가씨많음 OIO-9922-5375 부천역노래방</title>
+  <meta
+    name="description"
+    content="부천노래방 | 부천퍼블릭가라오케 | 신중동노래방 | 부천퍼블릭 |
+    부천노래클럽 | 부천역노래클럽 | 부천상동노래클럽 | 신중동노래클럽"
+  />
+</svelte:head>
+
 <div class="container">
   <header>
     <div class="header-container">
