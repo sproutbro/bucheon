@@ -1,6 +1,4 @@
 <script>
-  import { useLazyImage as lazyImage } from "svelte-lazy-image";
-
   let menu = "";
   function handleMenuButton() {
     if (menu.style.display === "block") {
@@ -58,11 +56,7 @@
     <section id="about">
       <div class="section-container">
         <div class="item">
-          <img
-            data-src="/logo1.gif"
-            alt="부천역노래방, 부천노래방"
-            use:lazyImage
-          />
+          <img src="/logo1.gif" alt="부천역노래방, 부천노래방" />
         </div>
         <div class="item">
           <h2>부천노래방 소개</h2>
@@ -94,11 +88,7 @@
           </p>
         </div>
         <div class="item">
-          <img
-            data-src="/logo2.gif"
-            alt="부천역노래방가격, 부천노래방가격"
-            use:lazyImage
-          />
+          <img src="/logo2.gif" alt="부천역노래방가격, 부천노래방가격" />
         </div>
       </div>
     </section>
@@ -107,11 +97,7 @@
     <section id="alba">
       <div class="section-container">
         <div class="item">
-          <img
-            data-src="/logo3.gif"
-            alt="부천역노래방알바, 부천노래방알바"
-            use:lazyImage
-          />
+          <img src="/logo3.gif" alt="부천역노래방알바, 부천노래방알바" />
         </div>
         <div class="item">
           <h2>부천노래방 알바</h2>
