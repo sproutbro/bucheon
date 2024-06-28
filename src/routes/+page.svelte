@@ -47,7 +47,7 @@
     <section id="about">
       <div class="section-container">
         <div class="item">
-          <img src="/logo1.gif" alt="부천역노래방, 부천노래방" />
+          <img src="/logo1.gif" loading="lazy" alt="부천역노래방, 부천노래방" />
         </div>
         <div class="item">
           <h2>부천노래방 소개</h2>
@@ -79,7 +79,11 @@
           </p>
         </div>
         <div class="item">
-          <img src="/logo2.gif" alt="부천역노래방가격, 부천노래방가격" />
+          <img
+            src="/logo2.gif"
+            loading="lazy"
+            alt="부천역노래방가격, 부천노래방가격"
+          />
         </div>
       </div>
     </section>
@@ -88,7 +92,11 @@
     <section id="alba">
       <div class="section-container">
         <div class="item">
-          <img src="/logo3.gif" alt="부천역노래방알바, 부천노래방알바" />
+          <img
+            src="/logo3.gif"
+            loading="lazy"
+            alt="부천역노래방알바, 부천노래방알바"
+          />
         </div>
         <div class="item">
           <h2>부천노래방 알바</h2>
