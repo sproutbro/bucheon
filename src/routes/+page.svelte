@@ -13,8 +13,13 @@
   <title>부천노래방 아가씨많음 OIO-9922-5375 부천역노래방</title>
   <meta
     name="description"
-    content="부천노래방 | 부천퍼블릭가라오케 | 신중동노래방 | 부천퍼블릭 |
-    부천노래클럽 | 부천역노래클럽 | 부천상동노래클럽 | 신중동노래클럽"
+    content="
+    부천노래방 | 부천퍼블릭가라오케 | 신중동노래방 | 부천퍼블릭 |
+    부천노래클럽 | 부천역노래클럽 | 부천상동노래클럽 | 신중동노래클럽 | 
+    신중동 퍼블릭 |신중동 가라오케 | 가라오케 | 신중동 하퍼 | 
+    중동 하이퍼블릭 | 중동 퍼블릭 | 중동 노래클럽 | 부천 하퍼 | 
+    부천하이퍼블릭 | 부천 퍼블릭 | 부천 하이퍼블릭 | 부천 노래클럽 |
+    신중동 노래클럽 | 중동 노래클럽 | 부천 선수 | 부천 아가씨"
   />
 </svelte:head>
 
@@ -52,6 +57,17 @@
     </div>
   </header>
   <main>
+    <!-- 버튼 -->
+
+    <div class="button-container">
+      <a href="tel:0109922-5375">
+        <button class="call-button">전화하기</button>
+      </a>
+      <a href="https://open.kakao.com/o/sG6uugtg">
+        <button class="kakao-button">카톡연결</button>
+      </a>
+    </div>
+
     <!-- 소개 -->
     <section id="about">
       <div class="section-container">
@@ -163,6 +179,35 @@
 </div>
 
 <style>
+  .button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+  }
+  .call-button,
+  .kakao-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .call-button {
+    background-color: #28a745;
+    color: white;
+  }
+  .kakao-button {
+    background-color: #ffeb00;
+    color: black;
+  }
   /*  */
   .header-container {
     display: flex;
