@@ -63,9 +63,6 @@
       <a href="tel:0109922-5375">
         <button class="call-button">전화하기</button>
       </a>
-      <a href="https://open.kakao.com/o/sG6uugtg">
-        <button class="kakao-button">카톡연결</button>
-      </a>
     </div>
 
     <!-- 소개 -->
@@ -192,8 +189,8 @@
   }
   .call-button,
   .kakao-button {
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 18px 36px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
